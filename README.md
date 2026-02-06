@@ -7,6 +7,8 @@ git clone https://github.com/AMOZINGAS/golang-practice-ma.git
 una vez clonado debemos de ir la carpeta donde se encuentra golang-practice-ma
 ya estando dentro de la carpeta golang-practice-ma, instalaremos lo siguiente
 
+  go mod init golang-practice-ma
+
   go install "modernc.org/sqlite"
   
   go mod tidy
