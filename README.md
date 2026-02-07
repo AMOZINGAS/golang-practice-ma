@@ -8,8 +8,6 @@ una vez clonado debemos de ir la carpeta donde se encuentra golang-practice-ma
 ya estando dentro de la carpeta golang-practice-ma, instalaremos lo siguiente
 
   go mod init golang-practice-ma
-
-  go install "modernc.org/sqlite"
   
   go mod tidy
   
@@ -55,8 +53,11 @@ seleccionamos de nuevo row y json
 }
 
 y finalmente para el delete es de la siguiente manera
+
 Delete
+
 http://localhost:8080/books/id (es el id del libro que deseas eliminar)
+
 y seleccionamos enviar
 
 
